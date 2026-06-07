@@ -1,4 +1,4 @@
-<img width="1882" height="911" alt="Screenshot 2026-06-07 161217" src="https://github.com/user-attachments/assets/f9c9980f-e2a0-4d7d-9eaa-e98106759e25" /><img width="1882" height="911" alt="Screenshot 2026-06-07 161217" src="https://github.com/user-attachments/assets/9fc1fcee-1f35-4175-ac19-7906de40dbf2" /># 🚀 AI Resume Analyzer
+# 🚀 AI Resume Analyzer
 
 AI Resume Analyzer is an AI-powered platform that helps job seekers improve their resumes using Machine Learning and Natural Language Processing (NLP).
 
