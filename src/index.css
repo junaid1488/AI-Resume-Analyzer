@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Ensure the print template is completely hidden on system screens */
+@media screen {
+  #print-report-template {
+    display: none !important;
+  }
+}
+
+@media print {
+  /* Hide standard dark backgrounds and dynamic styles */
+  html, body, #application-container {
+    background: white !important;
+    color: black !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  /* Force hide all standard interactive components and rails */
+  .print\:hidden,
+  header,
+  footer,
+  aside,
+  button,
+  #results-controls {
+    display: none !important;
+  }
+
+  /* Make sure main container stretches fully with zero padding offsets */
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Force full high-fidelity rendering of the report template */
+  #print-report-template {
+    display: block !important;
+    visibility: visible !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0.4in !important; /* Perfect standard page offsets */
+    background: white !important;
+    color: black !important;
+  }
+}
