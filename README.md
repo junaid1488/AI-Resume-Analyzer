@@ -1,20 +1,63 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+<img width="1882" height="911" alt="Screenshot 2026-06-07 161217" src="https://github.com/user-attachments/assets/f9c9980f-e2a0-4d7d-9eaa-e98106759e25" /><img width="1882" height="911" alt="Screenshot 2026-06-07 161217" src="https://github.com/user-attachments/assets/9fc1fcee-1f35-4175-ac19-7906de40dbf2" /># 🚀 AI Resume Analyzer
 
-# Run and deploy your AI Studio app
+AI Resume Analyzer is an AI-powered platform that helps job seekers improve their resumes using Machine Learning and Natural Language Processing (NLP).
 
-This contains everything you need to run your app locally.
+You can view website here --> https://ai-resume-analyzer-816882326799.us-west1.run.app
 
-View your app in AI Studio: https://ai.studio/apps/248d239f-349c-4a83-96a6-3101f7a9e6df
+## ✨ Features
 
-## Run Locally
+* 📄 Resume Parsing (PDF/DOCX)
+* 🧠 Skill Extraction
+* 📊 ATS Score Calculation
+* 🎯 Resume vs Job Description Matching
+* 🔍 Missing Skill Detection
+* 🤖 Job Role Prediction
+* 🎤 Interview Question Generation
+* 📈 Interactive Dashboard
+## 🎥 Project Demo
 
-**Prerequisites:**  Node.js
+img<img width="1882" height="911" alt="Screenshot 2026-06-07 161217" src="https://github.com/user-attachments/assets/ce9c8c26-1b4c-4c3f-9ac2-4e3d4d195d50" />
+>
 
+## 🏗️ Workflow
+```text
+Resume Upload
+      ↓
+Resume Parser
+      ↓
+Skill Extraction
+      ↓
+ATS Scoring
+      ↓
+JD Matching
+      ↓
+Role Prediction
+      ↓
+Interview Questions
+      ↓
+Dashboard Report
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-Learn
+* spaCy
+* Plotly
+
+## 🎯 Project Goal
+
+Help candidates optimize resumes, improve ATS compatibility, identify missing skills, and increase interview opportunities through AI-driven insights.
+
+## 🚀 Key Skills Demonstrated
+
+* Machine Learning
+* Natural Language Processing
+* Data Analytics
+* Data Visualization
+* Software Development
+
+⭐ A practical AI project showcasing real-world applications of Data Science, NLP, and intelligent recruitment systems.
