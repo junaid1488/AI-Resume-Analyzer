@@ -1,4 +1,22 @@
 #include <iostream>
+using namespace std;
+
+int main() {
+    int n = 5;
+
+    if (n <= 2) {
+        cout << n;
+        return 0;
+    }
+
+    int a = 1, b = 2;
+
+    for (int i = 3; i <= n; i++)
+        a = b, b = a + b;
+
+    cout << "Ways: " << b;
+    return 0;
+}#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
