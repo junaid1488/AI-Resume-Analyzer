@@ -6,11 +6,6 @@
     display: none !important;
   }
 }
-  .print\:hidden,
-  header,
-  footer,
-  aside,
-  button,
   #results-controls {
     display: none !important;
   }
