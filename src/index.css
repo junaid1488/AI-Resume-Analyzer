@@ -6,11 +6,6 @@
     display: none !important;
   }
 }
-
-
-   
-
-  /* Force hide all standard interactive components and rails */
   .print\:hidden,
   header,
   footer,
