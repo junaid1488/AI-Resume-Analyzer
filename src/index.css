@@ -1,8 +1,4 @@
 @import "tailwindcss";
-
-/* Ensure the print template is completely hidden on system screens */
-@media screen {
-  #print-report-template {
     display: none !important;
   }
 }
