@@ -2,9 +2,7 @@
     display: none !important;
   }
 }
-  #results-controls {
-    display: none !important;
-  }
+
 
   /* Make sure main container stretches fully with zero padding offsets */
   main {
