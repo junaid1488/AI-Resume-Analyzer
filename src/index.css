@@ -7,8 +7,6 @@
   }
 }
 
-@media print {
-  /* Hide standard dark backgrounds and dynamic styles */
 
     overflow: visible !important;
     height: auto !important;
