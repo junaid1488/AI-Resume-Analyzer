@@ -9,9 +9,7 @@
 
 @media print {
   /* Hide standard dark backgrounds and dynamic styles */
-  html, body, #application-container {
-    background: white !important;
-    color: black !important;
+
     overflow: visible !important;
     height: auto !important;
   }
