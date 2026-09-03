@@ -1,9 +1,5 @@
 @import "tailwindcss";
     display: none !important;
  
-  
-    margin: 0 !important;
-    padding: 0.4in !important; /* Perfect standard page offsets */
- 
   }
 }
