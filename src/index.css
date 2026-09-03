@@ -4,8 +4,6 @@
 }
   }
 
-  /* Force full high-fidelity rendering of the report template */
-  #print-report-template {
     display: block !important;
     visibility: visible !important;
     position: static !important;
